@@ -1,0 +1,26 @@
+* {
+    background-color: black;
+    color: white;
+    font-family: 'VT323', monospace;
+    padding-left: 1%;
+}
+
+.navarea > .area > .header {
+    font-size: 72px;
+}
+
+.navarea > .area > .content{
+    font-size: 40px;
+    display: none;
+}
+
+.navline-selected {
+    background-color: white;
+    color: black;
+}
+
+.animateTextArea {
+    display: flex;
+    padding-left: 10%;
+    font-size: 72px;
+}
