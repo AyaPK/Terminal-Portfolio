@@ -33,4 +33,9 @@ function addLetter(){
         clearInterval(running);
     }
 }
-var running = setInterval(addLetter, 40);
+jQuery(document).ready(function() {
+    $(".animateTextArea").append("> ");
+    setTimeout(function() {
+        var running = setInterval(addLetter, 100);
+    }, 1000);
+});
